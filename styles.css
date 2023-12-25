@@ -1,0 +1,57 @@
+body {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+    text-align: center;
+    background-color: rgb(242, 195, 172);
+     
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-list li {
+    margin-bottom: 10px;
+}
+
+.user-list a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add a smooth transition for better UX */
+}
+
+.user-list a:hover {
+    color: #045cbb; /* Change to a highlight color on hover */
+}
+
+.post-info {
+    border: 3px solid #f90303;
+    padding: 20px;
+    width: 60%; /* Adjusted width */
+    margin-top: 20px;
+    border: 50;
+  
+}
+
+.post {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+    
+}
+
+h3 {
+    margin-top: 0;
+}
+.user-list li:hover {
+    background-color: rgb(242, 242, 244);
+}
